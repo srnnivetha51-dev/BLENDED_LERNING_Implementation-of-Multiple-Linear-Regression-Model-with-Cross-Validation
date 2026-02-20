@@ -47,8 +47,8 @@ x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=42
 model=LinearRegression()
 model.fit(x_train,y_train)
 
-print("Name:Lakshiya Rajkumar ")
-print("Reg. No:212225240076")
+print("Name: S R NIVEDHITHA ")
+print("Reg. No:212225240102")
 print("\n=== Cross-Validation ===")
 cv_scores=cross_val_score(model,x,y,cv=5)
 print("Fold R^2 scores:",[f"{score:.4f}"for score in cv_scores])
